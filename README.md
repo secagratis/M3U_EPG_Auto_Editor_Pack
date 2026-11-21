@@ -11,3 +11,5 @@ Come creare l'eseguibile (.exe):
 - Fai doppio clic su "compila_m3u_epg_auto_editor.bat".
 - Al termine si aprira' automaticamente la cartella "dist" con dentro "M3U_EPG_Auto_Editor.exe".
 
+Apri la cartella in cui hai estratto i file (m3u_epg_auto_editor.py).   Clicca sulla barra degli indirizzi della cartella in alto, scrivi cmd e premi Invio.Incolla ed esegui questo comando:
+python -m PyInstaller --noconsole --onefile --clean --name "M3U_EPG_Auto_Editor" m3u_epg_auto_editor.py
